@@ -1,0 +1,21 @@
+name: fg
+version: ${project.version}
+main: cz.janvrska.fg.plugin
+api-version: 1.13
+authors: [janvrska]
+description: Plugin pro server fg
+depend: [Essentials,Residence,ProtocolLib,AuthMe]
+commands:
+  fg:
+    description: fg
+  a:
+    description: Zapnout admin chat
+  lobby:
+    description: Teleport do lobby
+  atomovka:
+    description: ...
+  wrecker:
+    description: ...
+  countrylock:
+    description: CL
+
